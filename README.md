@@ -11,3 +11,7 @@ En la història 2, hem començat a afegir els continguts dels articles i de la p
 ## Història 3 - Estils generals CSS
 
 En aquesta història, el que hem fet i hem treballat han sigut els estils generals CSS, tocant sobretot la tipografia, mida de la font, colors, espais, marges, divs...
+
+## Història 4 - Menús i links
+
+A la història 4, hem fet diverses tasques a realitzar, com pot ser, revisar els menús, links, hem fet també un sitemap, on es podrà veure les relacions que tenen la nostra pàgina web i posteriorment hem connectat els articles amb la pàgina web principal.
