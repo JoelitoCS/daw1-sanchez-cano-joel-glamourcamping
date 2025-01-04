@@ -15,3 +15,7 @@ En aquesta història, el que hem fet i hem treballat han sigut els estils genera
 ## Història 4 - Menús i links
 
 A la història 4, hem fet diverses tasques a realitzar, com pot ser, revisar els menús, links, hem fet també un sitemap, on es podrà veure les relacions que tenen la nostra pàgina web i posteriorment hem connectat els articles amb la pàgina web principal.
+
+## Història 5 - Layout
+
+En aquesta història, podem observar que hem de realitzar directament el prototip que tenim de Figma, afegint tot el que hem après en les anteriors històries i sessions d'aprenentatge, tot menys el formulari i la secció 'Our Gallery'.

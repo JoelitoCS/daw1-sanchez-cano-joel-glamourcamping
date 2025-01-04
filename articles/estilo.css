@@ -1,0 +1,22 @@
+body{
+    color:#2D2D2D;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.titolArticle{
+    color:#345E40;
+    border-bottom:2px solid #97A483;
+    text-align: center;
+
+    padding: 10px;
+    
+}
+
+.citas{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #F7F2DB;
+    border: solid 2px rgba(177,196,167,0.5);
+    border-radius: 10px;
+}

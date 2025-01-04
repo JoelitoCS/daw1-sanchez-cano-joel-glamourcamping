@@ -1,23 +1,1289 @@
-body {
-    color: #2D2D2D;
-    font-family: 'Inter', sans-serif;
-    font-weight: 100;
-    font-optical-sizing: auto;
-  }
-  
+body{
+  box-sizing: border-box;  
+  font-family: "Inter", serif;
+  margin: 0;
+}
 
-  .titolArticle {
-    color: #345E40;
-    border-bottom: 2px solid #97A483;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+a{
+  font-size:16px;
+}
+
+#head{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+header{
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 925px;
+  width: 1920px;
+  max-width: 1920px;
+  max-height: 925px;
+  background-image: url(imagenes/Banner.svg);
+}
+
+.logo{
+  width: 152.13px;
+  max-width: 152.13px;
+  height: 110px;
+  max-height: 110px;
+
+  margin-top: 31px;
+  margin-left: 114px;
+}
+
+/*MENU*/
+header #menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 114px;
+}
+
+
+/*MENU PRINCIPAL*/
+#menu > nav > ul{
+  width: 396px;
+  max-width: 396px;
+  height: 32px;
+  max-height: 32px;
+
+  margin-top: 71px;
+  left: 1212px;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu > nav > ul > li{
+  list-style: none;
+}
+
+#menu > nav > ul > li > a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 32px;
+}
+/*BOTON MENU PRINCIPAL*/
+#menu > button{
+  transition: cursor 3s ease;
+  width: 151px;
+  max-width: 151px;
+  height: 50px;
+  max-height: 50px;
+
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+
+  margin-top: 71px;
+  left: 1655px;
+  margin-left: 49.5px;
+
+  background-color: transparent;
+}
+
+#menu > button:hover{
+  cursor: pointer;
+}
+
+#menu > button > a{
+  text-decoration: none;
+  color: #FFFFFF;
+
+  font-weight: 700;
+  font-size: 14px;
+
+  line-height: 16.94px;
+}
+
+/*SLIDER*/
+#Slider{
+  display: flex;
+  justify-content: space-between;
+}
+
+#Contenido_Slider{
+  display: flex;
+}
+/*Flechas*/
+.flecha{
+  transition: cursor 3s ease;
+  height: 40px;
+  max-height: 40px;
+  width: 40px;
+  max-width: 40px;
+
+  margin-top: 320px;
+
+  border: 1px solid #FFFFFF;
+  border-radius: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flecha:hover{
+  cursor: pointer;
+}
+
+#flecha_derecha{
+  margin-left: 110px;
+  opacity: 30%;
+}
+
+#flecha_izquierda{
+  margin-right: 110px;
+}
+/*Informacion*/
+
+#Info > p{
+  color: #FFFFFF;
+
+  max-width:323px;
+  max-height:32px;
+
+  margin-top: 156px;
+  margin-left: 60px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+#Info h4{
+  color: #FFFFFF;
+
+  width: 505px;
+  max-width:505px;
+  height: 206px;
+  max-height:206px;
+
+  margin-top: 9px;
+  margin-left: 60px;
+
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+/*PLAY VIDEO*/
+.video{
+  width: 241px;
+  max-width: 241px;
+
+  margin-left: 60px;
+
+  display: flex;
+  gap: 20px;
+}
+
+#play{
+  transition: cursor 3s ease;
+  border: 1px solid #FFFFFF;
+  border-radius: 100%;
+
+  width: 43px;
+  max-width: 43px;
+  height: 43px;
+  max-height: 43px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#play:hover{
+  cursor: pointer;
+}
+
+#play > img{
+  width: 14.56px;
+  max-width: 14.56px;
+  height: 11.79px;
+  max-height: 11.79px;
+}
+
+.video > a{
+  color: white;
+
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+
+  margin-top: 5px;
+}
+
+/*COTENIDO*/
+main{
+  width: 1920px;
+  max-width: 1920px;
+  height: 6345px;
+  max-height: 6345px;
+
+  background-color: #F7F2DB;
+
+  position: absolute;
+}
+#about{
+  width: 72px;
+  max-width: 72px;
+  height: 24px;
+  max-height: 24px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.2px;
+
+  margin-top: 186px;
+  margin-left: 923px;
+}
+
+#about > p{
+  text-align: center;
+  color: #97A483;
+} 
+
+#Info_activity > h2{
+  width: 520px;
+  max-width: 520px;
+  height: 122px;
+  max-height: 122px;
+
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60.51px;
+  text-align: center;
+
+  margin-top: 41px;
+  margin-left: 699px;
+}
+
+#Info_activity > p{
+  width: 1088px;
+  max-width: 1088px;
+  height: 130px;
+  max-height: 130px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #555555;
+
+  margin-top: 27px;
+  margin-left: 416px;
+}
+
+/*Simbolos Del Contenido*/
+#cards{
+  max-width: 1500px;
+  height: 100px;
+  max-height: 100px;
+
+  margin-left: 295px;
+  margin-right: 295px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cards > hr{
+  width: 95px;
+  color: #BFBFBF;
+  rotate: -90deg; /*EL DEG SON LOS GRADOS DE ROTACION*/
+}
+
+#cards > div > p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.card{
+  margin-top: 20px;
+}
+
+.card > img{
+  margin-left: 19px;
+}
+/*AUTOCARAVANA*/
+
+#autocaravana > img{
+  width: 104px;
+  max-width: 104px;
+  height: 59px;
+  max-height: 59px;    
+}
+
+#autocaravana > p{
+  width: 142px;
+  max-width: 142px;
+  height: 30px;
+  max-height: 30px;
+}
+
+/*CARAVANA*/
+
+#Caravana > img{
+  width: 97px;
+  max-width: 97px;
+  height: 59px;
+  max-height: 59px;
+}
+
+#Caravana > p{
+  width: 150px;
+  max-width: 150px;
+  height: 30px;
+  max-height: 30px;
+}
+
+/*TIENDA ACAMPADA*/
+
+#Tienda_acampada > img{
+  width: 79px;
+  max-width: 79px; 
+  height: 59px;
+  max-height: 59px;
+}
+
+#Tienda_acampada > p{
+  width: 117px;
+  max-width: 117px;
+  height: 30px;
+  max-height: 30px;
+}
+
+/*LUGARES CAMPING*/
+
+#Lugares > img{
+  width: 102.16px;
+  max-width: 102.16px; 
+  height: 62.9px;
+  max-height: 62.9px;
+}
+
+#Lugares > p{
+  width: 129px;
+  max-width: 129px;
+  height: 30px;
+  max-height: 30px;
+}
+
+/*CABAÑA*/
+
+#Cabanya > img{
+  width: 62px;
+  max-width: 62px;
+  height: 59px;
+  max-height: 59px;
+}
+
+#Cabanya > p{
+  width: 143px;
+  max-width: 143px;
+  height: 30px;
+  max-height: 30px;
+}
+
+/*APARTIR DE AQUI UTILIZAR POSITION ABSOLUT Y RELATIVE CUANDO ESTE TERMINADO MODIFICAR LO DE ARRIBA INSERTANDO EL POSITION*/
+
+#cards_2{
+ display: flex;
+ 
+ align-items: center;
+ margin-top: 87px;
+}
+
+#cards_2 > div{
+  width: 474px;
+  max-width: 474px;
+  height: 527px;
+  max-height: 527px;
+
+  justify-items: center;
+}
+
+#cards_2 > div > img{
+  width: 474px;
+  max-width: 474px;
+  height: 320px;
+  max-height: 320px;
+}
+
+#cards_2 > div > h2{
+  width: 282px;
+  max-width: 282px;
+  height: 25px;
+  max-height: 25px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+
+  margin-top: 33px;
+  margin-bottom: 19px;
+}
+
+#cards_2 > div > p{
+  width: 452px;
+  max-width: 452px; 
+  height: 130px;
+  max-height: 130px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #555555;
+  text-align: center;
+}
+
+#Camping_area_for_tents{
+  margin-left: 210px;
+}
+
+#Trailers_And_RV_Spots{
+  margin-left: 39px;
+}
+
+#Cabins_and_glamping{
+  margin-left: 39px;
+}
+/*SECCION DE ACTIVIDAD*/
+#activity_informacion{
+  display: flex; 
+}
+/*PARTE IZQUIERDA DE ACTIVIDAD*/
+#Activity_Intro > h1 , #Activity_Intro > p{
+  margin-left: 210px;
+}
+
+#Activity_Intro{
+  margin-top: 131px;
+  font-weight: 700;
+}
+#Activity_Intro > p{
+  width: 97px;
+  max-width: 97px;
+  height: 24px;
+  max-height: 24px;
+
+  font-size: 20px;
+  line-height: 24.2px;
   
-  .citas {
-    background-color: #F7F2DB;
-    border: 2px solid rgba(151, 164, 131, 0.5); /* #97a48388 */
-    border-radius: 10px;
-    padding: 20px;
-  }
+  color: #97A483;
+} 
+
+#Activity_Intro > h1{
+  width: 646px;
+  max-width: 646px;
+  height: 122px;
+  max-height: 122px;
+
+  font-size: 50px;
+  line-height: 60.51px;
   
+  color: #2D2D2D;
+
+  margin-top: 17px;
+}
+
+#Activity_Intro_logo{
+  width: 582px;
+  max-width: 582px;
+  height: 338px;
+  max-height: 338px;
+
+  background-image: url(imagenes/Fondo_Actividades.png);
+
+  margin-top: 120px;
+  margin-left: 232px;
+
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+#Activity_Intro_logo > img{
+  width: 395px;
+  max-width: 395px;
+  height: 355.46px;
+  max-height: 355.46px;
+}
+/*PARTE DERECHA DE ACTIVIDAD*/
+#Logos_1_Activity , #Logos_2_Activity{
+  display: flex;
+}
+#Logos_Activity h1{
+  height: 25px;
+  max-height: 25px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+
+  color: #2D2D2D;
+
+  margin-top: 28px;
+}
+
+#Logos_Activity p{
+  width: 296px;
+  max-width: 296px;
+  height: 130px;
+  max-height: 130px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #555555;
+
+  margin-top: 19px;
+}
+  /*MONTAÑA*/
+#Montaña{
+  margin-left: 104px;
+  margin-top: 71px;
+}
+#Montaña > img{
+  width: 104px;
+  max-width: 104px;
+  height: 104px;
+  max-height: 104px;
+}
+
+#Montaña > h1{
+  width: 103px;
+  max-width: 103px;
+}
+
+  /*FOGATA*/
+#Fogata{
+  margin-top: 176px;
+  margin-left: 84px;
+}
+
+#Fogata > img{
+  width: 93px;
+  max-width: 93px;
+  height: 94px;
+  max-height: 94px;
+}
+
+#Fogata > h1{
+  width: 85px;
+  max-width: 85px;
+}
+
+  /*CANOA*/
+#Canoa{
+  margin-left: 104px;
+}
+
+#Canoa > img{
+  width: 108px;
+  max-width: 108px;
+  height: 111px;
+  max-width: 111px;
+}
+
+#Canoa > h1{
+  width: 113px;
+  max-width: 113px;
+}
+
+  /*SENDERISMO*/
+#Senderismo{
+  margin-top: 70px;
+  margin-left: 84px;
+}
+
+#Senderismo > img{
+  width: 112px;
+  max-width: 112px;
+  height: 112px;
+  max-height: 112px;
+}
+
+#Senderismo > h1{
+  width: 76px;
+  max-width: 76px;
+}
+
+/*SECCION CON HOGERA DE FONDO*/
+
+#action{
+  width: 1920px;
+  max-width: 1920px;
+  height: 701px;
+  max-height: 701px;
+
+  background-image: url(imagenes/Hoguera.png);
+
+  margin-top: 64px;
+
+  position: relative;
+}
+
+#action > p{
+  position: absolute;
+
+  width: 903px;
+  max-width: 903px;
+  height: 122px;
+  max-height: 122px;
+
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60.51px;
+
+  color: #FFFFFF;
+  text-align: center;
+
+  margin-top: 262px;
+  margin-left: 508px;
+}
+
+#action > button{
+  transition: cursor 3s ease;
+  position: absolute;
+  
+  width: 293px;
+  max-width: 293px;
+  height: 50px;
+  max-height: 50px;
+
+  border:  2px solid #FFFFFF;
+  border-radius: 10px;
+
+  background-color: transparent;
+
+  margin-top: 432px;
+  margin-left: 813px;
+
+  justify-content: center;
+  justify-items: center;
+}
+
+#action > button:hover{
+  cursor: pointer;
+}
+
+#action > button > a {
+  width: 150.36px;
+  max-width: 150.36px;
+  height: 17px;
+  max-height: 17px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.94px;
+  
+  color: #FFFFFF;
+
+  text-decoration: none;
+}
+
+/*INFORMACION DE TIPOS DE APARTAMENTO*/
+#booking > p{
+  width: 94px;
+  max-width: 94px;
+  height: 24px;
+  max-height: 24px;
+  
+  font-weight: 700;
+  font-size: 20px;
+  list-style: 24.2px;
+  text-align: center;
+
+  color: #97A483;
+
+  margin-top: 120px;
+  margin-left: 914px;
+}
+
+#booking > h1{
+  width: 646px;
+  max-width: 646px;
+  height: 122px;
+  max-height: 122px;
+
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60.51px;
+  text-align: center;
+  
+  color: #2D2D2D;
+
+  margin-top: 17px;
+  margin-left: 638px;
+}
+
+  /*ARTICULOS*/
+
+/* articulos_booking = 4 ARTICULOS*/
+.articulos_booking{
+  display: flex;
+
+  margin-top: 86px;
+  margin-left: 210px;
+}
+
+/*ARTICULOS DE LA DERECHA*/
+#Caravan_soler_tent, #Small_Cabin_Wood{
+  margin-left: 32px;
+}
+
+.articulos_booking > div > img{
+  width: 733px;
+  max-width: 733px;
+  height: 443px;
+  max-height: 443px;
+}
+
+.articulos_booking  h2{
+  height: 25px;
+  max-height: 25px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+
+  color: #345E40;
+
+  margin-top: 39px;
+}
+
+/*Nombres de Articulos*/
+#Bell_Glamp_One h2{
+  width: 179px;
+  max-width: 179px;
+}
+
+#Caravan_soler_tent h2{
+  width: 223px;
+  max-width: 223px;
+}
+
+#Glammping_Tent h2{
+  width: 190px;
+  max-width: 190px;
+}
+
+#Small_Cabin_Wood h2{
+  width: 213px;
+  max-width: 213px;
+}
+
+.title_persons{
+  width: 733px;
+  max-width: 733px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_persons > div{
+  width: 179px;
+  margin-top: 39px;
+  display: flex;
+  justify-content: space-between;
+}
+.title_persons > div > p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #555555;
+}
+
+.title_persons > div > hr{ 
+  color: #9A9A9A;
+}
+
+/*TEXTO DE CADA ARTICULO*/
+.articulos_booking > div > p{
+  width: 677px;
+  max-width: 677px;
+  height: 130px;
+  max-height: 130px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify; 
+
+  color: #555555;
+
+  margin-top: 21px;
+}
+
+/*BOTON DE DISPONIBILIDAD*/
+.articulos_booking > div > button{
+  transition: cursor 3s ease;
+  
+  width: 293px;
+  max-width: 293px;
+  height: 50px;
+  max-height: 50px;
+
+  background-color: #345E40;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+}
+
+.articulos_booking > div > button:hover{
+  cursor: pointer;
+}
+
+.articulos_booking > div > button > a{
+  width: 150.36px;
+  max-width: 150.36px;
+  height: 17px;
+  max-height: 17px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.94px;
+
+  color: #FFFFFF;
+
+  text-decoration: none;
+}
+
+/*Seccion Noticias*/ 
+
+#news > p{
+  width: 55px;
+  max-width: 55px;
+  height: 24px;
+  max-height: 24px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24.2px;
+
+  color: #97A483;
+
+  margin-top: 120px;
+  margin-left: 210px;
+}
+
+#Last_Articles {
+  display: flex;
+  margin-top: 13px;
+}
+
+#Last_Articles > h2{
+  width: 621px;
+  max-width: 621px;
+  height: 61px;
+  max-height: 61px;
+
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60.51px;
+
+  color: #2D2D2D;
+
+  margin-left: 209px;
+}
+
+#Last_Articles > button{
+  transition: cursor 3s ease;
+
+  width: 151px;
+  max-width: 151px;
+  height: 50px;
+  max-height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #345E40;
+  border-radius: 10px;
+
+  margin-left: 729px;
+}
+
+#Last_Articles > button:hover{
+  cursor: pointer;
+}
+
+#Last_Articles > button > a{
+  width: 77.49px;
+  max-width: 77.49px;
+  height: 17px;
+  max-height: 17px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.94px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #FFFFFF;
+}
+  /*Articulos noticias*/
+#Articles_news{
+  margin-top: 48.79px;
+  display: flex;
+}
+#news_1{
+  margin-left: 210.14px;
+}
+
+#news_2,#news_3{
+  margin-left: 39.39px;
+}
+
+.new img{
+  width: 473.36px;
+  max-width: 473.36px;
+  height: 286.41px;
+  max-height: 286.41px;
+}
+
+.new p{
+  width: 453px;
+  max-width: 453px;
+  height: 104px;
+  max-height: 104px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: justify;
+
+  color: #2D2D2D;
+
+  margin-top: 43.8px;
+}
+
+.new_link{
+  width: 157px;
+  max-width: 157px;
+  height: 60px;
+  max-height: 60px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-decoration: none;
+
+  color: #555555;
+}
+
+/*GALLERY*/
+
+/*INFORMACION GALLERY*/
+#gallery{
+  position: relative;
+  width: 1711px;
+  max-width: 1711px;
+  height: 840px;
+  max-height: 840px;
+
+  display: flex;
+
+  margin-left: 209px;
+  margin-top: 73px;  
+}
+
+#gallery > div > h1{
+  width: 351px;
+  max-width: 351px;
+  height: 61px;
+  max-height: 61px;
+
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60.51px;
+
+  color: #2D2D2D;
+}
+
+#gallery > div > p{
+  width: 387px;
+  max-width: 387px;
+  height: 96px;
+  max-height: 96px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+
+  color: #555555;
+
+  margin-top: 19px;
+} 
+
+  /*FLECHAS*/
+#flechas_gallery{
+  display: flex;
+  margin-top: 26px;
+}
+.botones_gallery > button{
+  transition: cursor 3s ease;
+  
+  width: 40px;
+  max-width: 40px;
+  height: 40px;
+  max-height: 40px;
+
+  border: 1px solid #555555;
+  border-radius: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+}
+
+.botones_gallery > button:hover{
+  cursor: pointer;
+}
+
+/*IMAGEN GALLERY*/
+#img_final >img{
+  width: 1140px;
+  max-width: 1140px;
+  height: 757px;
+  margin-top: 17px;
+  margin-left: 184px;
+}
+  /*FILTRO PARA CAMBIAR EL COLOR DE LAS FLECHAS */
+  /* filter: invert(34%) sepia(1%) saturate(1747%) hue-rotate(344deg) brightness(90%) contrast(50%); */
+
+#flecha_izquierda_gallery{
+  opacity: 30%;
+  rotate: 180deg;
+}
+
+#flecha_derecha_gallery{
+  margin-left: 34px;
+}
+
+  /*IMAGEN ABSOLUTA*/
+#imagen_absolulata_gallery {
+  position: absolute;
+  width: 352px;
+  max-width: 352px;
+  height: 456px;
+  max-height: 456px;
+
+  margin-left: 301px;
+  margin-top: 384px;
+}
+
+/*FOOTER*/
+footer{
+  width: 1920px;
+  max-width: 1920px;
+  height: 610px;
+  max-height: 610px;
+
+  background-color: #345E40;
+
+  margin-top: 6345px;
+}
+
+footer > div{
+  position: absolute;
+  margin-left: 209px;
+
+  display: flex;
+}
+#Footer_Suscribe{
+  margin-top: 172px;
+}
+
+#Footer_Suscribe h1{
+  width: 751px;
+  max-width: 751px;
+  height: 182px;
+  max-height: 182px;
+
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 91px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+#Footer_Suscribe p{
+  width: 228px;
+  max-width: 228px;
+  height: 21px;
+  max-height: 21px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.8px;
+
+  color: #FFFFFF;
+
+  /*Cuando se ponga el buscador calcular el top con la resta del top del navegador - el ancho de el - el top de la p*/
+  margin-top: 117px;
+}
+
+#Footer_Derecha{
+  margin-top: 180px;
+  margin-left: 197px;
+}
+
+#Menu_footer{
+  display: flex;
+}
+
+#Menu_footer > nav{
+  width: 384px;
+  max-width: 384px;
+  height: 99px;
+  max-height: 99px;
+}
+
+#Menu_footer > nav > h4{
+  width: 99px;
+  max-width: 99px;
+  height: 43px;
+  max-height: 43px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 43.2px;
+
+  color: #FFFFFF;
+}
+
+#Menu_footer > nav > ul{
+  width: 384px;
+  max-width: 384px;
+  height: 32px;
+  max-height: 32px;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+
+  margin-top: 24px;
+}
+
+#Menu_footer > nav > ul > li {
+  list-style: none;  
+}
+
+#Menu_footer > nav > ul a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-decoration: none;
+
+  color: #FFFFFF;
+}
+
+#boton_subir{
+  transition: cursor 3s ease;
+
+  width: 48px;
+  max-width: 48px;
+  height: 48px;
+  max-height: 48px;
+
+  border: 1px solid #FFFFFF;
+  border-radius: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 12px; 
+  margin-left: 124px;
+}
+#boton_subir:hover{
+  cursor: pointer;
+}
+
+#Contacto_Footer{
+  width: 222px;
+  max-width: 222px;
+  height: 134px;
+  max-height: 134px;
+
+  margin-top: 33px;
+}
+
+#Contacto_Footer > h4{
+  width: 94px;
+  max-width: 94px;
+  height: 43px;
+  max-height: 43px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 43.2px;
+
+  color: #F8F5F0;
+}
+
+#Contacto_Footer > a{
+  width: 176px;
+  max-width: 176px;
+  height: 21px;
+  max-height: 21px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.8px;
+
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#Contacto_Footer > a > p{
+margin-top: 23.5px;
+}
+
+#Logos_Footer{
+  width: 213px;
+  max-width: 213px;
+  height: 24px;
+  max-height: 24px;
+
+  margin-top: 19px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Logos_Footer img{
+  width: 24px;
+  max-width: 24px;
+  height: 24px;
+  max-height: 24px;
+}
+
+#General{
+  margin: 0 auto;
+}
