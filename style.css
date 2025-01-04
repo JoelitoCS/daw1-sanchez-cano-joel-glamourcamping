@@ -21,116 +21,77 @@ header{
   width: 1920px;
   max-width: 1920px;
   max-height: 925px;
-  background-image: url(imagenes/Banner.svg);
+  background-image: url(imagenes/imageninicial.svg);
 }
 
 .logo{
   width: 152.13px;
-  max-width: 152.13px;
   height: 110px;
-  max-height: 110px;
-
-  margin-top: 31px;
-  margin-left: 114px;
+  margin-top: 30px;
+  margin-left: 115px;
 }
 
-/*MENU*/
-header #menu{
+#menu{
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-right: 114px;
+  margin-right: 115px;
 }
 
+#menu button{
+  width: 151px;
+  height: 50px;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  margin-top: 70px;
+  left: 1655px;
+  margin-left: 49.5px;
+  background-color: transparent;
+}
 
-/*MENU PRINCIPAL*/
-#menu > nav > ul{
-  width: 396px;
-  max-width: 396px;
-  height: 32px;
-  max-height: 32px;
-
-  margin-top: 71px;
-  left: 1212px;
+#menu nav ul{
   padding: 0;
-
+  width: 395px;
+  height: 35px;
+  margin-top: 70px;
+  left: 1210px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#menu > nav > ul > li{
+#menu nav ul li{
   list-style: none;
 }
 
-#menu > nav > ul > li > a{
+#menu nav ul li a{
   color: #FFFFFF;
   text-decoration: none;
   font-weight: 500;
   line-height: 32px;
 }
-/*BOTON MENU PRINCIPAL*/
-#menu > button{
-  transition: cursor 3s ease;
-  width: 151px;
-  max-width: 151px;
-  height: 50px;
-  max-height: 50px;
 
-  border: 2px solid #FFFFFF;
-  border-radius: 10px;
-
-  margin-top: 71px;
-  left: 1655px;
-  margin-left: 49.5px;
-
-  background-color: transparent;
-}
-
-#menu > button:hover{
+#menu button:hover{
   cursor: pointer;
 }
 
-#menu > button > a{
+#menu button a{
   text-decoration: none;
   color: #FFFFFF;
-
   font-weight: 700;
-  font-size: 14px;
-
+  font-size: 15px;
   line-height: 16.94px;
 }
 
-/*SLIDER*/
-#Slider{
-  display: flex;
-  justify-content: space-between;
-}
-
-#Contenido_Slider{
-  display: flex;
-}
-/*Flechas*/
-.flecha{
-  transition: cursor 3s ease;
+.flechas{
   height: 40px;
-  max-height: 40px;
   width: 40px;
-  max-width: 40px;
-
   margin-top: 320px;
-
   border: 1px solid #FFFFFF;
   border-radius: 100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.flecha:hover{
-  cursor: pointer;
 }
 
 #flecha_derecha{
@@ -141,59 +102,52 @@ header #menu{
 #flecha_izquierda{
   margin-right: 110px;
 }
-/*Informacion*/
 
-#Info > p{
+.flecha:hover{
+  cursor: pointer;
+}
+
+#cambiapagina{
+  display: flex;
+  justify-content: space-between;
+}
+
+#cambiapagina_cont{
+  display: flex;
+}
+
+#contenido p{
   color: #FFFFFF;
-
-  max-width:323px;
-  max-height:32px;
-
   margin-top: 156px;
   margin-left: 60px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 25px;
 }
 
-#Info h4{
+#contenido h3{
   color: #FFFFFF;
-
   width: 505px;
-  max-width:505px;
   height: 206px;
-  max-height:206px;
-
-  margin-top: 9px;
-  margin-left: 60px;
-
+  margin-top: 10px;
+  margin-left: 62px;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 50px;
   line-height: 60px;
 }
 
-/*PLAY VIDEO*/
-.video{
+.videoboton{
   width: 241px;
-  max-width: 241px;
-
   margin-left: 60px;
-
   display: flex;
   gap: 20px;
 }
 
 #play{
-  transition: cursor 3s ease;
   border: 1px solid #FFFFFF;
   border-radius: 100%;
-
   width: 43px;
-  max-width: 43px;
   height: 43px;
-  max-height: 43px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -203,14 +157,14 @@ header #menu{
   cursor: pointer;
 }
 
-#play > img{
+#play img{
   width: 14.56px;
   max-width: 14.56px;
   height: 11.79px;
   max-height: 11.79px;
 }
 
-.video > a{
+.videoboton > a{
   color: white;
 
   text-decoration: none;
@@ -221,7 +175,6 @@ header #menu{
   margin-top: 5px;
 }
 
-/*COTENIDO*/
 main{
   width: 1920px;
   max-width: 1920px;
@@ -251,39 +204,30 @@ main{
   color: #97A483;
 } 
 
-#Info_activity > h2{
-  width: 520px;
-  max-width: 520px;
-  height: 122px;
-  max-height: 122px;
+#contenido_activity p{
+  width: 1088px;
+  height: 130px;
+  color: #555555;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 27px;
+  margin-left: 416px;
+  font-weight: 500;
+}
 
+#contenido_activity h2{
+  width: 520px;
+  height: 122px;
   font-weight: 700;
   font-size: 50px;
   line-height: 60.51px;
   text-align: center;
-
   margin-top: 41px;
   margin-left: 699px;
 }
 
-#Info_activity > p{
-  width: 1088px;
-  max-width: 1088px;
-  height: 130px;
-  max-height: 130px;
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 30px;
-  text-align: center;
-  color: #555555;
-
-  margin-top: 27px;
-  margin-left: 416px;
-}
-
-/*Simbolos Del Contenido*/
-#cards{
+#imagenes{
   max-width: 1500px;
   height: 100px;
   max-height: 100px;
@@ -296,13 +240,13 @@ main{
   align-items: center;
 }
 
-#cards > hr{
+#imagenes hr{
   width: 95px;
   color: #BFBFBF;
   rotate: -90deg; /*EL DEG SON LOS GRADOS DE ROTACION*/
 }
 
-#cards > div > p{
+#imagenes div p{
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
@@ -310,152 +254,127 @@ main{
   margin-top: 18px;
 }
 
-.card{
+.imagenes_clase{
   margin-top: 20px;
 }
 
-.card > img{
+.imagenes_clase img{
   margin-left: 19px;
 }
-/*AUTOCARAVANA*/
 
-#autocaravana > img{
+#caravana1 img{
   width: 104px;
   max-width: 104px;
   height: 59px;
   max-height: 59px;    
 }
 
-#autocaravana > p{
+#caravana1 p{
   width: 142px;
   max-width: 142px;
   height: 30px;
   max-height: 30px;
 }
 
-/*CARAVANA*/
-
-#Caravana > img{
+#caravana2 > img{
   width: 97px;
   max-width: 97px;
   height: 59px;
   max-height: 59px;
 }
 
-#Caravana > p{
+#caravana2 > p{
   width: 150px;
   max-width: 150px;
   height: 30px;
   max-height: 30px;
 }
 
-/*TIENDA ACAMPADA*/
-
-#Tienda_acampada > img{
+#tienda img{
   width: 79px;
   max-width: 79px; 
   height: 59px;
   max-height: 59px;
 }
 
-#Tienda_acampada > p{
+#tienda p{
   width: 117px;
   max-width: 117px;
   height: 30px;
   max-height: 30px;
 }
 
-/*LUGARES CAMPING*/
-
-#Lugares > img{
+#sitios img{
   width: 102.16px;
   max-width: 102.16px; 
   height: 62.9px;
   max-height: 62.9px;
 }
 
-#Lugares > p{
+#sitios p{
   width: 129px;
   max-width: 129px;
   height: 30px;
   max-height: 30px;
 }
 
-/*CABAÑA*/
-
-#Cabanya > img{
-  width: 62px;
-  max-width: 62px;
-  height: 59px;
-  max-height: 59px;
-}
-
-#Cabanya > p{
+#cabaña p{
   width: 143px;
   max-width: 143px;
   height: 30px;
   max-height: 30px;
 }
 
-/*APARTIR DE AQUI UTILIZAR POSITION ABSOLUT Y RELATIVE CUANDO ESTE TERMINADO MODIFICAR LO DE ARRIBA INSERTANDO EL POSITION*/
+#cabaña img{
+  width: 62px;
+  max-width: 62px;
+  height: 59px;
+  max-height: 59px;
+}
 
-#cards_2{
+#imagenes2{
  display: flex;
- 
  align-items: center;
  margin-top: 87px;
 }
 
-#cards_2 > div{
+#imagenes2 div{
   width: 474px;
-  max-width: 474px;
   height: 527px;
-  max-height: 527px;
-
   justify-items: center;
 }
 
-#cards_2 > div > img{
+#imagenes2 div img{
   width: 474px;
-  max-width: 474px;
   height: 320px;
-  max-height: 320px;
 }
 
-#cards_2 > div > h2{
+#imagenes2 div h2{
   width: 282px;
-  max-width: 282px;
   height: 25px;
-  max-height: 25px;
-
   font-weight: 700;
   font-size: 24px;
   line-height: 25px;
   text-align: center;
-
-  margin-top: 33px;
-  margin-bottom: 19px;
+  margin-top: 35px;
+  margin-bottom: 20px;
 }
 
-#cards_2 > div > p{
-  width: 452px;
-  max-width: 452px; 
+#imagenes2 div p{
+  width: 452px; 
   height: 130px;
-  max-height: 130px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
-
   color: #555555;
   text-align: center;
 }
 
-#Camping_area_for_tents{
+#camping{
   margin-left: 210px;
 }
 
-#Trailers_And_RV_Spots{
+#trailers{
   margin-left: 39px;
 }
 
