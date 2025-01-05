@@ -4,16 +4,14 @@ body{
     font-weight: 300;
 }
 
-.titolArticle{
+.tituloarticulo{
     color:#345E40;
     border-bottom:2px solid #97A483;
     text-align: center;
-
     padding: 10px;
-    
 }
 
-.citas{
+.textos{
     margin-left: 20px;
     margin-right: 20px;
     background-color: #F7F2DB;
