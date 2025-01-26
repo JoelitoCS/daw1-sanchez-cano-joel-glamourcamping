@@ -4,8 +4,77 @@ body{
   margin: 0;
 }
 
+#posicion{
+
+
+}
+
 a{
   font-size:16px;
+}
+
+.Form{
+  
+  background-color: #FFFFFF;
+  width: 1920px;
+  height: 125px;
+}
+
+.Form button{
+  background-color: #345E40;
+  width: 240px;
+  height: 50px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.Form form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formulario, button{
+  display: flex;
+  flex-direction: column;
+  margin: 35px 50px 1px 60px;
+}
+
+.formulario img {
+
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  
+}
+
+.formulario label{
+  margin-left: 20px;
+}
+
+input{
+  border: none;
+  border-bottom: #000000 2px solid;
+}
+
+button{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+label{
+  width: auto;
+  text-align: left;
+  font-weight: bold;
+  color: #345E40;
+  margin-bottom: 10px;
+}
+
+select{
+  border: none;
+  border-bottom: #000000 2px solid;
 }
 
 #head{
@@ -47,6 +116,8 @@ header{
   left: 1655px;
   margin-left: 49.5px;
   background-color: transparent;
+  color: #FFFFFF;
+  font-weight: bold;
 }
 
 #menu nav ul{
@@ -75,7 +146,7 @@ header{
   cursor: pointer;
 }
 
-#menu button a{
+#menu button p{
   text-decoration: none;
   color: #FFFFFF;
   font-weight: 700;
@@ -514,16 +585,8 @@ main{
   border-radius: 10px;
   margin-top: 432px;
   margin-left: 813px;
-}
-
-#action button a {
-  width: 150.36px;
-  height: 17px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16.94px;
   color: #FFFFFF;
-  text-decoration: none;
+  font-weight: bold;
 }
 
 #booking p{
@@ -575,6 +638,11 @@ main{
   line-height: 25px;
   color: #345E40;
   margin-top: 39px;
+}
+
+.anuncios_booking button{
+  color: #FFFFFF;
+  font-weight: 700;
 }
 
 #tiendanavideña h2{
@@ -692,18 +760,8 @@ main{
   border-radius: 11px;
   margin-left: 730px;
   cursor: pointer;
-}
-
-
-#Lastest_Articles button a{
-  width: 77.49px;
-  height: 17px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  text-decoration: none;
   color: #FFFFFF;
+  font-weight: 700;
 }
 
 #Articles_news{
@@ -823,9 +881,7 @@ footer{
   max-width: 1920px;
   height: 610px;
   max-height: 610px;
-
   background-color: #345E40;
-
   margin-top: 6345px;
 }
 
