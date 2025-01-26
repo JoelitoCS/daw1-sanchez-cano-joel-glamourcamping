@@ -19,3 +19,7 @@ A la història 4, hem fet diverses tasques a realitzar, com pot ser, revisar els
 ## Història 5 - Layout
 
 En aquesta història, podem observar que hem de realitzar directament el prototip que tenim de Figma, afegint tot el que hem après en les anteriors històries i sessions d'aprenentatge, tot menys el formulari i la secció 'Our Gallery'.
+
+## Història 6 - Formularis i taula de preus
+
+Per últim però menys important, hem fet un formulari al principi i al final de la web, així aplicant els coneixements aprenguts en les sessions anteriors.
