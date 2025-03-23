@@ -14,91 +14,81 @@ body{
     color:#2D2D2D;
     font-family: "Inter", sans-serif;
     font-weight: 300;
-
     height: 208px;
     width: 1897px;
-
     max-height: 208px;
     max-width: 1897px;
     margin: 0% auto;
 }
+
 main{
     background-color:  #F5F3E9;
 }
+
 #noticias{
     margin-top: 0px;
 }
 
-
-/*FOOTER*/
 footer{
     width: 1900px;
     max-width: 1920px;
     height: 610px;
     max-height: 610px;
-
     background-color: #345E40;
-
     margin-top: 0px;
 }
 
 footer > div{
     position: absolute;
     margin-left: 209px;
-
     display: flex;
 }
-#Footer_Suscribe{
+
+#suscribe{
     margin-top: 172px;
 }
 
-#Footer_Suscribe h1{
+#suscribe h1{
     width: 751px;
     max-width: 751px;
     height: 182px;
     max-height: 182px;
-
     font-weight: 700;
     font-size: 70px;
     line-height: 91px;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
-#Footer_Suscribe p{
+#suscribe p{
     width: 228px;
     max-width: 228px;
     height: 21px;
     max-height: 21px;
-
     font-weight: 400;
     font-size: 16px;
     line-height: 20.8px;
-
     color: #FFFFFF;
-
-    /*Cuando se ponga el buscador calcular el top con la resta del top del navegador - el ancho de el - el top de la p*/
     margin-top: 34px;
 }
 
-#Footer_Derecha{
+#footerDerecha{
     margin-top: 180px;
     margin-left: 197px;
 }
 
-#Menu_footer{
+#menuFooter{
     display: flex;
 }
 
-#Menu_footer > nav{
+#menuFooter > nav{
     width: 384px;
     max-width: 384px;
     height: 99px;
     max-height: 99px;
 }
 
-#Menu_footer > nav > h4{
+#menuFooter nav h4{
     width: 99px;
     max-width: 99px;
     height: 43px;
@@ -111,7 +101,7 @@ footer > div{
     color: #FFFFFF;
 }
 
-#Menu_footer > nav > ul{
+#menuFooter nav ul{
     width: 384px;
     max-width: 384px;
     height: 32px;
@@ -122,11 +112,11 @@ footer > div{
     margin-top: 24px;
 }
 
-#Menu_footer > nav > ul > li {
+#menuFooter nav ul li {
     list-style: none;  
 }
 
-#Menu_footer > nav > ul a{
+#menuFooter nav ul a{
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -190,7 +180,7 @@ footer > div{
 margin-top: 23.5px;
 }
 
-#Logos_Footer{
+#logosFooter{
     width: 213px;
     max-width: 213px;
     height: 24px;
@@ -201,7 +191,7 @@ margin-top: 23.5px;
     align-items: center;
 }
 
-#Logos_Footer img{
+#logosFooter img{
     width: 24px;
     max-width: 24px;
     height: 24px;
@@ -217,15 +207,11 @@ margin-top: 23.5px;
     z-index: 2;
     width: 1500px;
     height: 125px;
-
     background-color: #FFFFFF;
-
     margin-top: -63px;
     margin-left: 210px;
-
     display: flex;
     align-items: center;
-
     border: 0px;
     box-shadow: -10 10 20 #2D2D2D0D;
 }
@@ -242,35 +228,32 @@ margin-top: 23.5px;
     width: 242px;
     height: 61px;
 }
+
 .contenedor_formulario img{
     width: 14px;
     height: 14px;
 }
+
 .contenedor_formulario label{
     width: 77px;
     height: 19px;
-
     font-weight: 700;
     font-size: 16px;
     line-height: 19.36px;
-
     margin-left: 6px;
-
     color: #345E40;
 }
 
 .contenedor_formulario input,select{
     width: 140px;
     height: 19px;
-
     margin-top: 17px;
     border: 0px;
-
     font-weight: 600;
     font-size: 16px;
     line-height: 19.36px;
 }
-/*Quita el border del autofoco*/
+
 .contenedor_formulario input:focus{
     outline: none;
 }
@@ -288,32 +271,22 @@ margin-top: 23.5px;
 #formulario_principal button{
     width: 241px;
     height: 50px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-top: 9px;
-
     background-color: #345E40;
     border: 1px solid #345E40;
     border-radius: 10px;
-
     color: #FFFFFF;
     font-weight: 700;
     font-size: 14px;
     line-height: 16.94px;
 }
 
-/**PREGUNTAR A CARLOS */
-input[type="date"]::-webkit-calendar-picker-indicator {
-    background: none;
-}
-
 #formuario_footer{
     width: 809px;
     height: 46px;
-
     margin-top: 37px;
 }
 
@@ -324,14 +297,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     display: flex;
 } 
 
-#formuario_footer  input{
+#formuario_footer input{
     width: 334.28px;
     height: 34px;
-
     font-weight: 400;
     font-size: 20px;
     line-height: 34px;
-
     color: #FFFFFF;
     background-color: transparent;
     border: 0px;
@@ -340,14 +311,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 #formuario_footer a{
     width:190.8px;
     height: 34px;
-
     margin-left: 283.91px;
-
     font-weight: 400;
     font-size: 20px;
     line-height: 34px;
     color: #FFFFFF;
-
     text-decoration: none;
     text-transform: capitalize;
 }
@@ -376,9 +344,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     font-size: 18px;
     line-height: 32px;
     text-align: justify;
-
     color: #2D2D2D;
-
     margin-top: 5px;
 }
 
