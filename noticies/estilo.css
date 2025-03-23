@@ -202,20 +202,6 @@ margin-top: 23.5px;
     margin: 0 auto;
 }
 
-#FORMULARIO{
-    position: absolute;
-    z-index: 2;
-    width: 1500px;
-    height: 125px;
-    background-color: #FFFFFF;
-    margin-top: -63px;
-    margin-left: 210px;
-    display: flex;
-    align-items: center;
-    border: 0px;
-    box-shadow: -10 10 20 #2D2D2D0D;
-}
-
 #formulario_principal{
     display: flex;
     gap: 25px;
@@ -284,20 +270,20 @@ margin-top: 23.5px;
     line-height: 16.94px;
 }
 
-#formuario_footer{
+#formularioFooter{
     width: 809px;
     height: 46px;
     margin-top: 37px;
 }
 
-#formuario_footer div{
+#formularioFooter div{
     width: 809px;
     height: 34px;
     margin-bottom: 12px;
     display: flex;
 } 
 
-#formuario_footer input{
+#formularioFooter input{
     width: 334.28px;
     height: 34px;
     font-weight: 400;
@@ -308,7 +294,7 @@ margin-top: 23.5px;
     border: 0px;
 }
 
-#formuario_footer a{
+#formularioFooter a{
     width:190.8px;
     height: 34px;
     margin-left: 283.91px;
@@ -320,17 +306,17 @@ margin-top: 23.5px;
     text-transform: capitalize;
 }
 
-#formuario_footer img{
+#formularioFooter img{
     width: 24.42px;
     height: 16px;
     margin-left: 50.95px;
 }
-#formuario_footer  input::placeholder{
+#formularioFooter  input::placeholder{
     color: #FFFFFF;
     text-transform: capitalize;
 }
 
-#formuario_footer  input:focus{
+#formularioFooter  input:focus{
     outline: none;
 }
 
@@ -339,7 +325,6 @@ margin-top: 23.5px;
     max-width: 453px;
     height: 104px;
     max-height: 104px;
-
     font-weight: 700;
     font-size: 18px;
     line-height: 32px;
