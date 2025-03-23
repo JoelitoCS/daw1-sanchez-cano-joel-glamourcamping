@@ -2,19 +2,130 @@ body{
     color:#2D2D2D;
     font-family: "Inter", sans-serif;
     font-weight: 300;
+    height: 208px;
+    width: 1897px;
+    max-height: 208px;
+    max-width: 1897px;
 }
 
-.tituloarticulo{
+.titolArticle{
     color:#345E40;
     border-bottom:2px solid #97A483;
     text-align: center;
     padding: 10px;
 }
 
-.textos{
+.citas{
     margin-left: 20px;
     margin-right: 20px;
     background-color: #F7F2DB;
     border: solid 2px rgba(177,196,167,0.5);
     border-radius: 10px;
+}
+
+a{
+    font-size:16px;
+}
+
+header{
+    background-image: url(../imagenes/header.png);
+    background-size: contain;
+    height: 208px;
+    width: 1897px;
+    max-height: 208px;
+    max-width: 1897px;
+}
+
+#menuCabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 152.13px;
+    max-width: 152.13px;
+    height: 110px;
+    max-height: 110px;
+    margin-top: 31px;
+    margin-left: 114px;
+}
+
+header #menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 115px;
+}
+
+
+
+#menu nav ul{
+    width: 396px;
+    max-width: 396px;
+    height: 32px;
+    max-height: 32px;
+    margin-top: 71px;
+    left: 1212px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu nav ul li{
+    list-style: none;
+}
+
+#menu nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#menu button{
+    transition: cursor 3s ease;
+    width: 151px;
+    max-width: 151px;
+    height: 50px;
+    max-height: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 71px;
+    left: 1655px;
+    margin-left: 49.5px;
+    background-color: transparent;
+}
+
+#menu button:hover{
+    cursor: pointer;
+}
+
+#menu button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.94px;
+}
+
+#noticias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;    
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.contenedorNoticias{
+    border: 1px solid #2D2D2D;
+    border-radius: 10px;
+    width: 500px;
+}
+
+*{
+    box-sizing: border-box;  
+    font-family: "Inter", serif;
+    margin: 0;
 }

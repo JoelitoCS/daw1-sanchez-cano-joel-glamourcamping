@@ -23,3 +23,11 @@ En aquesta història, podem observar que hem de realitzar directament el prototi
 ## Història 6 - Formularis i taula de preus
 
 Per últim però menys important, hem fet un formulari al principi i al final de la web, així aplicant els coneixements aprenguts en les sessions anteriors.
+
+## Història 7 - Desplegament
+
+En aquesta història despleguem el projecte.
+
+## Història 8 - Generació de continguts mitjançant JavaScript
+
+A continuació, en aquesta historia, generem els continguts de notícies mitjançant JS.
