@@ -83,12 +83,12 @@ const bd = [
         tituloNoticia: ` Els Millors Destins per Gaudir del Glamping amb Estil `,
         img: `../imagenes/noticia3.png`,
         introduccion: `<p>
-            El <stron> glamping </stron> ha esdevingut una de les maneres més populars de connectar amb la natura sense renunciar a les comoditats modernes. Però no tots els destins de glamping són iguals; hi ha llocs que porten aquesta experiència al següent nivell, oferint una fusió perfecta entre luxe i natura. Aquí et presentem alguns dels millors destins per gaudir del glamping amb estil.
+            El <strong> glamping </strong> ha esdevingut una de les maneres més populars de connectar amb la natura sense renunciar a les comoditats modernes. Però no tots els destins de glamping són iguals; hi ha llocs que porten aquesta experiència al següent nivell, oferint una fusió perfecta entre luxe i natura. Aquí et presentem alguns dels millors destins per gaudir del glamping amb estil.
         </p>`,
         Noticia:
         `
             <p>
-            El <stron> glamping </stron> ha esdevingut una de les maneres més populars de connectar amb la natura sense renunciar a les comoditats modernes. Però no tots els destins de glamping són iguals; hi ha llocs que porten aquesta experiència al següent nivell, oferint una fusió perfecta entre luxe i natura. Aquí et presentem alguns dels millors destins per gaudir del glamping amb estil.
+            El <strong> glamping </strong> ha esdevingut una de les maneres més populars de connectar amb la natura sense renunciar a les comoditats modernes. Però no tots els destins de glamping són iguals; hi ha llocs que porten aquesta experiència al següent nivell, oferint una fusió perfecta entre luxe i natura. Aquí et presentem alguns dels millors destins per gaudir del glamping amb estil.
         </p>
 
         <ul>
@@ -114,147 +114,109 @@ const bd = [
         `
     },
     {
-        tituloNoticia: `<h1 class="titolArticle"> Els Beneficis de l'Ecoturisme per al Medi Ambient </h1>`,
+        tituloNoticia: `Tendes Bombolles per veure les estrelles i els estels per la nit `,
         img: `../imagenes/noticia4.jpg`,
-        introduccion:`<p>
-            L'<strong>ecoturisme</strong> s'ha convertit en una de les formes de turisme més populars i respectuoses amb el medi ambient. Aquesta pràctica no només permet als viatgers gaudir de la natura, sinó que també contribueix a la conservació dels ecosistemes i al benestar de les comunitats locals.
-        </p>`,
+        introduccion:`
+        <p>Dormir sota un cel estrellat mai havia estat tan màgic. Les tendes bombolla ofereixen una experiència única que combina confort i natura, permetent als visitants gaudir de les estrelles i els estels en tota la seva esplendor. Aquesta innovadora forma d'allotjament és perfecta per als amants de l'astronomia i aquells que busquen una connexió especial amb l'entorn natural.
+        </p>
+        `,
+
         Noticia: 
         `
-            <p>
-            L'<strong>ecoturisme</strong> s'ha convertit en una de les formes de turisme més populars i respectuoses amb el medi ambient. Aquesta pràctica no només permet als viatgers gaudir de la natura, sinó que també contribueix a la conservació dels ecosistemes i al benestar de les comunitats locals.
+        <p>
+        Les tendes bombolla són una de les opcions d'allotjament més innovadores i captivadores per als amants de la natura i l'astronomia. Aquestes estructures transparents permeten als visitants gaudir d'una vista panoràmica del cel nocturn, sense renunciar a les comoditats modernes. Equipades amb llits confortables, climatització i fins i tot banys privats, les tendes bombolla ofereixen una experiència de luxe en plena natura.
         </p>
 
         <p>
-            Un dels principals beneficis de l'ecoturisme és la seva capacitat per promoure la <strong>conservació de la biodiversitat</strong>. En visitar àrees protegides o parcs naturals, els turistes ajuden a finançar projectes de conservació i a mantenir aquests espais en bon estat. A més, l'ecoturisme fomenta la conscienciació ambiental, ja que els viatgers aprenen sobre la importància de protegir el medi ambient i les espècies que hi habiten.
+        Una de les principals atraccions d'aquest tipus d'allotjament és la possibilitat d'observar les estrelles i els estels sense cap tipus de contaminació lumínica. Situades en zones remotes i envoltades de paisatges espectaculars, les tendes bombolla són ideals per a escapades romàntiques, viatges en família o simplement per desconnectar del ritme frenètic de la vida quotidiana.
         </p>
 
         <p>
-            <div class="citas">
-                <ul>
-                    <em>
-                        "L'ecoturisme no és només una manera de viatjar; és una filosofia que busca minimitzar l'impacte ambiental i maximitzar els beneficis per a les comunitats locals."
-                    </em>
-                </ul>
-            </div>
+        A més de l'experiència nocturna, moltes d'aquestes tendes estan ubicades en llocs que ofereixen una gran varietat d'activitats diürnes. Des de rutes de senderisme fins a passejades en bicicleta o visites a parcs naturals, els visitants poden gaudir d'un dia ple d'aventures abans de relaxar-se sota el cel estrellat.
         </p>
 
-        <p>
-            Una altra avantatge de l'ecoturisme és el seu impacte positiu en les comunitats locals. En molts casos, aquest tipus de turisme genera ingressos per a les poblacions indígenes o rurals, oferint-los oportunitats laborals i millorant la seva qualitat de vida. Així, l'ecoturisme no només protegeix el medi ambient, sinó que també contribueix al desenvolupament sostenible de les regions visitades.
-        </p>
+        <div class="citas">
+        <ul>
+        <em>
+            "Dormir en una tenda bombolla és com estar en un somni. La sensació de veure les estrelles des del teu llit és simplement inoblidable."
+        </em>
+        </ul>
+        </div>
 
         <p>
-            En resum, l'ecoturisme és una manera responsable i enriquidora de viatjar que beneficia tant el medi ambient com les comunitats locals. Si busques una experiència de viatge que tingui un impacte positiu, l'ecoturisme és sens dubte una excel·lent opció.
+        Si busques una experiència única que combini natura, confort i un toc de màgia, les tendes bombolla són l'opció perfecta. Reserva la teva estada i prepara't per viure una nit sota les estrelles que recordaràs per sempre.
         </p>
         `
     },
     {
-        tituloNoticia: `<h1 class="titolArticle"> Rutes de Senderisme per Descobrir la Catalunya Menys Coneguda</h1>`,
+        tituloNoticia: `Tendes Rústiques per els Pirineus Catalans`,
         img: `../imagenes/noticia5.jpg`,
-        introduccion: `<p>
-            Catalunya és una regió plena de bellesa natural, amb paisatges que van des de les muntanyes dels Pirineus fins a les platges de la Costa Brava. Però més enllà dels llocs més coneguts, hi ha una infinitat de rutes de senderisme que et permeten descobrir la Catalunya més autèntica i menys turística.
+        introduccion: `
+        <p>Descobreix l'encant de les tendes rústiques als Pirineus catalans, un lloc on la natura i la tranquil·litat es fusionen per oferir una experiència única. Gaudeix de paisatges espectaculars, rutes de senderisme i moments de desconnexió en un entorn incomparable.
         </p>`,
+        
         Noticia:
         `
-            <p>
-            Catalunya és una regió plena de bellesa natural, amb paisatges que van des de les muntanyes dels Pirineus fins a les platges de la Costa Brava. Però més enllà dels llocs més coneguts, hi ha una infinitat de rutes de senderisme que et permeten descobrir la Catalunya més autèntica i menys turística.
+        <p>
+        Si ets un apassionat del senderisme, els Pirineus catalans són una destinació que no et pots perdre. Aquesta regió combina la bellesa natural amb una rica història i cultura, oferint rutes que s'adapten tant a principiants com a excursionistes experimentats. A continuació, et presentem algunes de les rutes més destacades:
         </p>
 
         <ul>
             <li>
-                <strong>La Ruta dels Volcans a la Garrotxa:</strong> Aquesta ruta et porta a través d'un paisatge únic, format per volcans extints i boscos densos. És una experiència ideal per als amants de la geologia i la natura, amb vistes espectaculars i una sensació de tranquil·litat incomparable.
+            <strong>La Ruta dels Estanys Amagats:</strong> Aquesta ruta et porta a descobrir alguns dels llacs més espectaculars dels Pirineus. Amb paisatges alpins impressionants, aquesta caminada és ideal per als amants de la fotografia i la tranquil·litat. La ruta inclou parades a l'Estany de Sant Maurici i l'Estany de Colomers.
             </li>
 
             <li>
-                <strong>El Camí de Ronda a la Costa Brava:</strong> Aquesta ruta costanera ofereix vistes impressionants del mar Mediterrani, amb cales amagades i pobles pesquers que semblen sortits d'un conte. És perfecta per a aquells que volen combinar senderisme amb banyades refrescants.
+            <strong>El Camí dels Bons Homes:</strong> Una ruta històrica que segueix les passes dels càtars, des del Santuari de Queralt fins a Montsegur, a França. Aquesta caminada combina natura i història, passant per boscos frondosos, castells medievals i pobles amb encant.
             </li>
 
             <li>
-                <strong>El Parc Natural del Cadí-Moixeró:</strong> Situat als Pre-Pirineus, aquest parc ofereix rutes per a tots els nivells, des de passejades tranquiles fins a ascensions desafiantes. Les vistes de les muntanyes i la riquesa de la fauna i flora fan d'aquest lloc un paradís per als excursionistes.
+            <strong>La Vall de Núria:</strong> Una de les rutes més populars dels Pirineus. Pots començar des de Queralbs i pujar fins al Santuari de Núria, gaudint de vistes espectaculars al llarg del camí. Aquesta ruta és perfecta per a famílies, ja que també es pot accedir amb el tren cremallera.
             </li>
 
             <li>
-                <strong>La Ruta del Cister:</strong> Aquesta ruta combina història i natura, portant-te a través de monestirs cistercencs i paisatges rurals. És una manera perfecta de descobrir el patrimoni cultural de Catalunya mentre gaudeixes d'una caminada tranquil·la.
+            <strong>El Parc Nacional d'Aigüestortes i Estany de Sant Maurici:</strong> Aquest parc nacional ofereix una gran varietat de rutes, des de passejades fàcils fins a caminades més exigents. Els seus paisatges, amb llacs, cascades i muntanyes, són únics a Europa.
             </li>
-        </ul>
 
-        <p>
-            Aquestes rutes són només una mostra de la gran varietat d'opcions que ofereix Catalunya per als amants del senderisme. Ja sigui que prefereixis les muntanyes, la costa o els paisatges rurals, hi ha una ruta per a tu. Així que posa't les botes i descobreix la Catalunya menys coneguda!
-        </p>
+            <li>
+            <strong>El Pedraforca:</strong> Una muntanya emblemàtica de Catalunya, ideal per als excursionistes més experimentats. La seva forma característica i les vistes des del cim fan que aquesta ruta sigui una de les més espectaculars dels Pirineus.
+            </li>
+
+            </ul>
+
+            <p>
+            A més de les rutes esmentades, els Pirineus catalans ofereixen moltes altres opcions per explorar. Des de caminades curtes fins a travesses de diversos dies, hi ha una ruta per a cada tipus d'excursionista. No oblidis portar l'equipament adequat i respectar l'entorn natural per garantir una experiència segura i sostenible.
+            </p>
+
+            <p>
+            Així que prepara les teves botes de muntanya, carrega la motxilla i endinsa't en la bellesa dels Pirineus catalans. Cada pas que facis et portarà més a prop de la natura i et regalarà moments inoblidables.
+            </p>
         `
-    }
+        
+    },
 ];
 
     let div = document.querySelector("#noticias")
-    let articulos  = ""
-
-    // Verifica si la URL contiene "news.html"
-if (window.location.pathname.includes("news.html")) {
-    let div = document.querySelector("#noticias"); // Asegúrate de que el contenedor exista
-    let articulos = "";
+    let articulos  = "";
 
     // Recorre la base de datos y genera el contenido dinámico
+
+    //el i + 1 del bucle sirve para que el primer artículo sea article1.html y después seguidamente sea el article2.html y asi sucesivamente hasta el ultimo articulo que tengamos
+
     for (let i = 0; i < bd.length; i++) {
         articulos += `
             <div class="contenidoNews">
-                <img class="imgDetalle" id="${i + 1}" src="${bd[i].img}" alt="Imagen de la noticia">
+                <img class="imgDetalle" src="${bd[i].img}" alt="Imagen de la noticia">
                 <div>
                     <h1 class="titolArticle">${bd[i].tituloNoticia}</h1>
                     ${bd[i].introduccion}
-                    <p class="noticia" id="${i + 1}">Read</p>
+                    <a href="../articles/article${i + 1}.html" class="link_noticias">
+                    <p class="noticia">Read</p>
+                    </a>
                 </div>
             </div>
         `;
     }
 
-    // Inserta los artículos en el contenedor
-    if (div) {
-        div.innerHTML = articulos;
-    } else {
-        console.error("El contenedor con id 'noticias' no se encontró en el DOM.");
-    }
-}
-     
+    document.querySelector("#noticias").innerHTML = articulos;
     
-const divIndex = document.querySelectorAll(".new");
-
-for(let i = 0; i < divIndex.length; i++){
-    mensajePrincipal = `<img src="${bd[i].img}" alt="Imagen sobre la noticia 1" id="${i+1}" class="imgDetalle">
-    <p>${bd[i].tituloNoticia}</p>
-    <a><p id="${i+1}" class="noticia">Read</p></a>`;
-
-    divIndex[i].innerHTML = mensajePrincipal;
-}
-
-
-const read = document.querySelectorAll(".noticia");
-for(let i = 0; i < read.length; i++){
-    read[i].addEventListener("click",function(e){
-        let idDetalle = e.currentTarget.id // RECOJO CORRECTAMENTE EL ID
-        console.log("EL NUMERO ES",idDetalle)
-        window.location.href = `https://cuddly-sniffle-7vpv6xwj56w6hxr6x-5503.app.github.dev/Webs/Others/detallNoticia.html?id=${idDetalle-1}`; 
-    })    
-}
-
-const imgDetalle = document.querySelectorAll(".imgDetalle");
-
-for(let i = 0; i < imgDetalle.length; i++){
-    imgDetalle[i].addEventListener("click",function(e){
-        let idDetalle = e.currentTarget.id // RECOJO CORRECTAMENTE EL ID
-        console.log("EL NUMERO ES",idDetalle)
-        window.location.href = `https://cuddly-sniffle-7vpv6xwj56w6hxr6x-5503.app.github.dev/Webs/Others/detallNoticia.html?id=${idDetalle-1}`; 
-    })    
-}
-
-if(id == 0 || id == 1 || id == 2 || id== 3 || id==4){
-    const contenidoDetalles = document.querySelector("#detalle"); 
-    contenidoDetalles.innerHTML = ` <div class="contenidoNews">   <h1 class="titolArticle"> ${bd[id].tituloNoticia} </h1> 
-            <div class="imgDetalle">         
-            <img src="${bd[id].img}">
-            <div class="texto"> 
-                ${bd[id].Noticia}
-            </div>
-            </div>
-            </div>
-            `
-}
