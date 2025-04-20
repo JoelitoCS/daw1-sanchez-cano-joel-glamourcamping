@@ -31,3 +31,7 @@ En aquesta història despleguem el projecte.
 ## Història 8 - Generació de continguts mitjançant JavaScript
 
 A continuació, en aquesta historia, generem els continguts de notícies mitjançant JS.
+
+## Història 9 - Consulta i manipulació en documents d'intercanvi de dades amb Firebase
+
+Per últim, carguem les noticies mitjançant Firebase, conectem amb la base de dades Firestore i carguem els camps que hem fet a la base de dades per a que es mostrin a la pàgina web.
