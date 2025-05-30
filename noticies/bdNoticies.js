@@ -43,3 +43,26 @@ const bd = [
   }
 
 ];
+
+  document.addEventListener("DOMContentLoaded", function (e) {
+    
+    const divNoticias = document.querySelector("#noticias");
+
+    if (divNoticias) {
+        let newsHTML = "";
+
+        for (let i = 0; i < bd.length; i++) {
+            const noticia = bd[i];
+            newsHTML += `
+                <div class="noticia">
+                    <img src="../${noticia.img}" alt="${noticia.tituloNoticia}" class="noticiaimg">
+                    <h2 class="noticiatitulo">${noticia.tituloNoticia}</h2>
+                    ${noticia.introduccion}
+                    <a href="detallNoticia.html?id=${noticia.id}" class="noticiaenlace">READ</a>
+                </div>
+            `;
+        }
+
+        divNoticias.innerHTML = newsHTML;
+    }
+});
