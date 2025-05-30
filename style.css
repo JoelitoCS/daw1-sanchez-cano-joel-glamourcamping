@@ -775,48 +775,61 @@ main{
   font-weight: 700;
 }
 
-#Articles_news{
+/* Para el contenedor de las noticias */
+#Articles_news {
   display: flex;
-  margin-top: 49px;
+  gap: 160px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 32px 0;
 }
 
-#news1{
-  margin-left: 210px;
+
+.card {
+  background: #faf7e3;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  overflow: hidden;
+  width: 32vw;
+  min-width: 300px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
 }
 
-#news2{
-  margin-left: 39px;
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
 }
 
-#news3{
-  margin-left: 39px;
+.card h2 {
+  font-size: 1.3rem;
+  margin: 16px 16px 8px 16px;
 }
 
-.noticia img{
-  width: 473.36px;
-  height: 286.41px;
+.card p {
+  margin: 0 16px 16px 16px;
 }
 
-.noticia p{
-  color: #2D2D2D;
-  width: 453px;
-  height: 104px;
+.card button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #345E40;
+  width: 293px;
+  height: 50px;
+  border-radius: 10px;
+  color: #FFFFFF;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: justify;
-  margin-top: 43.8px;
+  border: none;
+  margin: auto auto 24px auto; /* Cambia el margin */
+  cursor: pointer;
+  margin-top: auto; /* Añade esto para empujar el botón hacia abajo */
 }
 
-.link_noticias{
-  color: #555555;
-  width: 157px;
-  height: 60px;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
-  text-decoration: none;
-}
 
 #ourgallery{
   width: 1711px;
@@ -876,8 +889,6 @@ main{
   width: 1140px;
   max-width: 1140px;
   height: 757px;
-    
-  margin-top: 17px;
   margin-left: 184px;
 }
 
@@ -888,7 +899,7 @@ main{
     height: 456px;
     max-height: 456px;
     margin-left: 301px;
-    margin-top: 384px;
+    margin-top: 350px;
 }
 
 footer{
