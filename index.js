@@ -30,33 +30,3 @@ for (let i = 0; i < botones.length; i++) {
   });
 }
 
-const exploreBtn = document.querySelector('#botonExplorar');
-
-// Funcionnn para renderizar las 5 noticias
-function renderNoticias() {
-  let htmlCards = '';
-  for (let i = 0; i < bd.length; i++) {
-    const noticia = bd[i];
-    htmlCards += `
-      <div class="card">
-        <img src="${noticia.img}" alt="${noticia.tituloNoticia}" style="width:100%;height:200px;object-fit:cover;">
-        <h2>${noticia.tituloNoticia}</h2>
-        <div>${noticia.introduccion}</div>
-        <button class="ver-detalle" id="btn-${noticia.id}">READ</button>
-      </div>
-    `;
-  }
-  contenedor.innerHTML = htmlCards;
-
-  // Asignar eventos a los botones
-  const botones = document.querySelectorAll('.ver-detalle');
-  for (let i = 0; i < botones.length; i++) {
-    botones[i].addEventListener('click', function () {
-      const itemId = this.id.split('-')[1];
-      window.location.href = `detalle.html?id=${itemId}`;
-    });
-  }
-}
-
-// Mostrar noticias al pulsar "EXPLORE"
-exploreBtn.addEventListener('click', renderNoticias);
