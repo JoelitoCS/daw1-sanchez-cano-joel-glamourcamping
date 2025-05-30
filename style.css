@@ -761,7 +761,7 @@ main{
   margin-left: 209px;
 }
 
-#Lastest_Articles button{
+#Lastest_Articles a{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -813,6 +813,7 @@ main{
 .card p {
   margin: 0 16px 16px 16px;
 }
+
 
 .card button {
   display: flex;
