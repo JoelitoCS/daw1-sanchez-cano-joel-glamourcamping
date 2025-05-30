@@ -10,7 +10,7 @@ for (let i = 0; i < ultimasNoticias.length; i++) {
   const noticia = ultimasNoticias[i];
   html += `
     <div class="card">
-      <img src="${imgSrc}" alt="${noticia.tituloNoticia}" style="width:100%">
+      <img src="${noticia.img}" alt="${noticia.tituloNoticia}" style="width:100%">
       <h2>${noticia.tituloNoticia}</h2>
       ${noticia.introduccion}
       <button class="ver-detalle" id="btn-${noticia.id}">READ</button>
