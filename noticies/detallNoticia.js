@@ -7,7 +7,7 @@ const noticia = bd[id];
 if (noticia) {
   main.innerHTML = `
     <div class="contenidoArticulo">
-      <img src="${noticia.img}" alt="${noticia.tituloNoticia}">
+      <img class="imagenesNoticias" src="${noticia.img}" alt="${noticia.tituloNoticia}">
       <div class="textoArticulo">
         <h1 class="titolArticle">${noticia.tituloNoticia}</h1>
         ${noticia.introduccion}
