@@ -8,9 +8,11 @@ const ultimasNoticias = bd.slice(-3);
 let html = '';
 for (let i = 0; i < ultimasNoticias.length; i++) {
   const noticia = ultimasNoticias[i];
+  // Cambia "../imagenes/" por "imagenes/" solo para la página principal
+  const imgSrc = noticia.img.replace("../imagenes/", "imagenes/");
   html += `
     <div class="card">
-      <img src="${noticia.img}" alt="${noticia.tituloNoticia}" style="width:100%">
+      <img src="${imgSrc}" alt="${noticia.tituloNoticia}" style="width:100%">
       <h2>${noticia.tituloNoticia}</h2>
       ${noticia.introduccion}
       <button class="ver-detalle" id="btn-${noticia.id}">READ</button>
